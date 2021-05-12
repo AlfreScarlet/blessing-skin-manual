@@ -10,7 +10,7 @@ CSS：
 
 ```css
 /* 修改成自己的图片地址 */
-.login-page {
+#login-page {
     background-image: url("http://i2.muimg.com/1949/e560362e63a9080e.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ CSS：
 CSS（其中参数自行调整，详见 [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow)）：
 
 ```css
-.previewer canvas {
+#previewer canvas {
   filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 0.3));
 }
 ```
